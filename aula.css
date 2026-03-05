@@ -1,0 +1,35 @@
+table{
+    border-style: dotted dashed solid double ;
+}
+
+table, td,th {
+     border: 1px solid;
+}
+nav{
+    border:solid 5px lightskyblue ;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.sequencia {
+    background-color: lightskyblue;
+    align-items: center;
+    border: solid 15px lightskyblue;
+    padding:15px 0 ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 20px;
+
+}
+.titulo{
+    text-align: center;
+}
+
+.introducao {
+    align-items:center ;
+    justify-content:center ;
+
+}
