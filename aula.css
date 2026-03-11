@@ -6,7 +6,7 @@ table, td,th {
      border: 1px solid;
 }
 nav{
-    border:solid 5px lightskyblue ;
+    border:solid 5px blue ;
     text-align: center;
     display:flex;
     justify-content: space-between;
@@ -16,12 +16,13 @@ nav{
 .sequencia {
     background-color: lightskyblue;
     align-items: center;
-    border: solid 15px lightskyblue;
+    border: solid 15px lightskyblue ;
     padding:15px 0 ;
     display: flex;
     text-align: center;
     justify-content: center;
     word-spacing: 20px;
+    margin: 0;
 
 }
 .titulo{
@@ -32,4 +33,71 @@ nav{
     align-items:center ;
     justify-content:center ;
 
+}
+
+.introducao1 p{
+    text-align: justify;
+    text-indent: 50px;
+    margin: 0 15px;
+    padding: 20px;
+    
+}
+ p{
+    font-size: 20px;
+    color:blueviolet;
+
+}
+
+.imagens1{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        width: 100%; 
+        background-color: white; 
+}
+.livros1 img {
+    text-align: center;
+    width:200%;
+}
+
+.livros2 img{
+    text-align: center;
+    width: 200%;
+}
+
+.livros3 img{
+    text-align: center;
+    width: 200%;
+    
+}
+.videos{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.mapa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.contatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: red;
+    
+}
+.table{
+    border: 2px solid red;
+}
+td,th{
+    border: 2px dotted red;
+    padding: 5px;
 }
